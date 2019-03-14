@@ -1,0 +1,140 @@
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem
+}
+
+.bd-callout h4 {
+    margin-top: 0;
+    margin-bottom: .25rem
+}
+
+.bd-callout p:last-child {
+    margin-bottom: 0
+}
+
+.bd-callout code {
+    border-radius: .25rem
+}
+
+.bd-callout+.bd-callout {
+    margin-top: -.25rem
+}
+
+.bd-callout-info {
+    border-left-color: #5bc0de
+}
+
+.bd-callout-info h4 {
+    color: #5bc0de
+}
+
+.bd-callout-warning {
+    border-left-color: #f0ad4e
+}
+
+.bd-callout-warning h4 {
+    color: #f0ad4e
+}
+
+.bd-callout-danger {
+    border-left-color: #d9534f
+}
+
+.bd-callout-danger h4 {
+    color: #d9534f
+}
+
+.card .card-title {
+    margin-top: 0rem;
+}
+
+
+
+
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: #f47521;
+border-radius: 10px;
+
+}
+
+
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+
+.form-control,
+.is-focused .form-control {
+  background-image: linear-gradient(to top, #f47521 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+
+.form-check .form-check-input:checked+.form-check-sign .check {
+  background: #f47521;
+}
+
+
+@font-face {
+    font-family: 'MavenProBold';
+    src: url('../fonts/MavenProBold.eot');
+    src: url('../fonts/MavenProBold.eot') format('embedded-opentype'),
+         url('../fonts/MavenProBold.woff2') format('woff2'),
+         url('../fonts/MavenProBold.woff') format('woff'),
+         url('../fonts/MavenProBold.ttf') format('truetype'),
+         url('../fonts/MavenProBold.svg#MavenProBold') format('svg');
+}
+
+
+a {
+  color: #f44336;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:hover {
+  color: #aa2e25;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
